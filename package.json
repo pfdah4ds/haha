@@ -4,12 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node ind.js",
+    "dev": "nodemon ind.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
